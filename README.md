@@ -14,17 +14,22 @@ Compare the following examples:
 
 # Installation
 
-Require this package using Composer. Run the following command in the terminal:
+Require this package using npm. Run the following command in the terminal:
 
 
 ```
-
+npm install rasmify.js
 ```
 
 # Usage
 
 To convert an arabic string to its *rasm*, use the following code:
 
-```
+```javascript
+var rasmify = require('rasmify');
 
+var arabicString = 'الفَاتِحَة';
+
+// Should output الڡاٮحه
+rasmify(arabicString);
 ```
