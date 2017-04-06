@@ -1,6 +1,6 @@
 {
   "name": "rasmify.js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Reduce Arabic strings to their rasm, i.e. remove vocalization and other diacritics ",
   "main": "rasmify.js",
   "scripts": {

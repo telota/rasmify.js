@@ -26,7 +26,7 @@ npm install rasmify.js
 To convert an arabic string to its *rasm*, use the following code:
 
 ```javascript
-var rasmify = require('rasmify');
+var rasmify = require('rasmify.js');
 
 var arabicString = 'الفَاتِحَة';
 
