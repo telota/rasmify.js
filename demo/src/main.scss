@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Coranica';
+  src: url('./fonts/coranica_1145.eot');
+  src: url('./fonts/coranica_1145.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/coranica_1145.woff2') format('woff2'),
+  url('./fonts/coranica_1145.woff') format('woff'),
+  url('./fonts/coranica_1145.ttf') format('truetype'),
+  url('./fonts/coranica_1145.svg#coranicaregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#main-content {
+  flex : 1;
+}
+
+.arab {
+  font-size: 2em;
+  font-family: Coranica;
+  font-variant-ligatures: none;
+  -moz-font-feature-settings: "liga" 0, "clig" 0, "calt" 0;
+  -ms-font-feature-settings: "liga" 0, "clig" 0, "calt" 0;
+  -webkit-font-feature-settings: "liga" 0, "clig" 0, "calt" 0;
+  font-feature-settings: "liga" 0, "clig" 0, "calt" 0;
+}

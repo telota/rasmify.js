@@ -33,3 +33,7 @@ var arabicString = 'الفَاتِحَة';
 // Should output الڡاٮحه
 rasmify(arabicString);
 ```
+
+# PHP-Version
+
+This package has also been implemented in PHP. Check out [rasmify](https://github.com/telota/rasmify)

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>rasmify.js example</title>
+    <link rel="stylesheet" href="dist/rasmifyDemo.css">
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="nav-left">
+            <a class="nav-item">
+                rasmify
+            </a>
+        </div>
+
+        <!-- This "nav-menu" is hidden on mobile -->
+        <!-- Add the modifier "is-active" to display it on mobile -->
+        <div class="nav-right nav-menu">
+            <a class="nav-item" href="https://github.com/telota/rasmify.js">
+                Github
+            </a>
+            <a href="https://www.corpuscoranicum.de" class="nav-item">
+                Corpus Coranicum
+            </a>
+            <a href="https://www.bbaw.de" class="nav-item">
+                BBAW
+            </a>
+        </div>
+    </nav>
+
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Rasmify
+                </h1>
+                <h2 class="subtitle">
+                    Reduce arabic text to its rasm
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="main-content">
+        <div class="container">
+            <div class="heading">
+                <h1 class="title">Try it out</h1>
+            </div>
+
+            <div id="vue-root"></div>
+
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>rasmify.js</strong> by <a href="http://www.bbaw.de/die-akademie/mitarbeiter/opohl">Oliver Pohl</a> and
+                    <a href="http://www.bbaw.de/telota/telota">TELOTA</a> at the <a href="https://www.bbaw.de">Berlin-Brandenburg Academy of Sciences and Humanities</a>.
+
+                </p>
+                <p>
+                    The source code is licensed <a href="https://www.gnu.org/licenses/lgpl-3.0.html">LGPL-3.0</a>.
+                    The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
+                </p>
+                <p>
+                    PHP-Version: <a href="https://github.com/telota/rasmify">rasmify</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="dist/rasmifyDemo.js"></script>
+
+</body>
+</html>
