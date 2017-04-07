@@ -3943,7 +3943,8 @@ body {
   flex-direction: column; }
 
 #main-content {
-  flex: 1; }
+  flex: 1;
+  min-height: 50vh; }
 
 .arab {
   font-size: 2em;
