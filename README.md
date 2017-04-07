@@ -12,6 +12,10 @@ Compare the following examples:
 **Text without diacritics (rasmified)**
 ![First sura of the Qur'an rasmified](assets/quranic_text_rasmified.png)
 
+# Try it
+
+Check out the demo [here](https://telota.github.io/rasmify.js/demo/)
+
 # Installation
 
 Require this package using npm. Run the following command in the terminal:
