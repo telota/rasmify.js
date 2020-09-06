@@ -4,7 +4,8 @@
   "description": "Reduce Arabic strings to their rasm, i.e. remove vocalization and other diacritics ",
   "main": "rasmify.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "mocha",
+    "tdd": "mocha --watch"
   },
   "repository": {
     "type": "git",
