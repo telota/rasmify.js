@@ -14,11 +14,7 @@ describe('#rasmify()', () => {
             const arabString = wordData[4].trim();
             const rasmTarget = wordData[5].trim();
 
-            if (rasmify(arabString) !== rasmTarget) {
-                console.log(line);
-            }
-
-            //assert.equal(rasmify(arabString), rasmTarget, `Failed at ${wordData[0]} ${wordData[1]} ${wordData[2]} ${wordData[4]}`);
+            assert.equal(rasmify(arabString), rasmTarget, `Failed at ${wordData[0]} ${wordData[1]} ${wordData[2]} ${wordData[4]}`);
         });
     });
 });
