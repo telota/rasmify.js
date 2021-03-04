@@ -84,8 +84,8 @@ function rasmify(arabicString) {
         // Replace arabic letter waw with hamza above (\u0624) with arabic letter waw (\u0648)
         .replace(/\u0624/g, "\u0648")
 
-        // Replace arabic letter yeh with hamza above (\u0626) with arabic letter dotless beh (\u066E)
-        .replace(/\u0626/g, "\u066E")
+        // Replace arabic letter yeh with hamza above (\u0626) with arabic Arabic Letter Alef Maksura (\u0649)
+        .replace(/\u0626/g, "\u0649")
 
         // Replace arabic letter noon (\u0646) with arabic letter noon ghunna (\u06BA)
         .replace(/\u0646/g, "\u06BA")
